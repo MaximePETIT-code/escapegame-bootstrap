@@ -1,0 +1,85 @@
+
+  
+  .mt-100 {
+    margin-top: 120px;
+  }
+  
+  .btn-red {
+    background-color: var(--title-button-color);
+    border: 2px solid var(--title-button-color);
+    color: var(--text-color);
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 40px;
+  
+    &:hover {
+      background-color: transparent;
+      color: var(--text-color);
+    }
+  }
+  
+  .text-red {
+    color: var(--title-button-color);
+  }
+  
+  .btn-primary {
+    background-color: var(--title-button-color);
+    border-color: none;
+  }
+  
+  .card {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  
+  .AllDifficulte {
+    margin-bottom: 115%;
+    display: flex;
+    margin-top: 1%;
+  }
+  
+  .nbrPersonne {
+    margin-bottom: 1%;
+  }
+  
+  .imagePlusinfo:hover {
+    cursor: pointer;
+    background-color: black;
+    opacity: 50%;
+    background-image: url(../images/plus2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid #fff;
+    border-radius: 5px;
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .card-img-overlay:hover .plusInfo {
+      display: block;
+    }
+  }
+  
+  .cercle-plein {
+    width: 25px;
+    height: 25px;
+    background: var(--text-color);
+    border-radius: 25px; /* ou 50% */
+    margin-left: 2%;
+    margin-top: 1%;
+  }
+  
+  .cercle-vide {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px; /* ou 50% */
+    margin-left: 2%;
+    margin-top: 1%;
+    border: 3px solid #fff;
+  }
+  
+  .plusInfo {
+    display: none;
+    position: absolute;
+    right: 25%;
+    bottom: 25%;
+  }

@@ -1,0 +1,23 @@
+.selecteurProbleme {
+    height: 2.5rem;
+    color: white;
+  }
+  
+  .input {
+    background-color: transparent;
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+    option{
+      background-color: var(--main-bg-color);
+    }
+  }
+  
+  .input:focus {
+    background-color: transparent;
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+  }
+  
+  .optionContact {
+    background-color: transparent;
+  }

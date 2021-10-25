@@ -1,0 +1,607 @@
+.navbar {
+  background-color: var(--nav-footer-slider-color);
+  border-bottom: 4px var(--title-button-color) solid;
+}
+
+.navbar .navbar-nav {
+  white-space: nowrap;
+  position: relative;
+  z-index: 2;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar a {
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    height: 70px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar .active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: var(--title-button-color);
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.hero-banner {
+  background-image: url(../images/header-bg.jpg);
+}
+
+footer {
+  background-color: var(--nav-footer-slider-color);
+}
+
+i {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+i:hover {
+  color: var(--title-button-color);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar-toggler {
+  margin-bottom: 5px;
+}
+
+.horraires {
+  background-color: var(--nav-footer-slider-color);
+  padding: 60px 0 60px 0;
+}
+
+@media (max-width: 992px) {
+  .mercredi {
+    margin-left: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mercredi {
+    margin-left: 500px;
+  }
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+.cta {
+  height: 400px;
+  background-image: url(../images/salle-cta.jpg);
+}
+
+.avis .signature {
+  bottom: 15px;
+}
+
+.aventure-banner {
+  background-image: url(../images/aventure.jpg);
+}
+
+.enigme-banner {
+  background-image: url(../images/enigme.jpg);
+  background-position: center;
+}
+
+.horreur-banner {
+  background-image: url(../images/horreur.jpg);
+  background-position: center;
+}
+
+.sportif-banner {
+  background-image: url(../images/sportif.jpg);
+  background-position: 60% 0%;
+}
+
+.prison-banner {
+  background-image: url(../images/prison.jpg);
+  background-position: center;
+}
+
+.zombie-banner {
+  background-image: url(../images/zombie.jpg);
+}
+
+@media (max-width: 576px) {
+  .prison {
+    background-image: url(../images/prisonblack.jpg);
+  }
+}
+
+@media (max-width: 576px) {
+  .horreur {
+    background-image: url(../images/horreurblack.jpg);
+    background-position: 25% 35%;
+  }
+}
+
+@media (max-width: 576px) {
+  .zombie {
+    background-image: url(../images/zombieblack.jpg);
+    background-position: 25% 35%;
+  }
+}
+
+@media (max-width: 576px) {
+  .sportif {
+    background-image: url(../images/sportifblack.jpg);
+    background-position: 30% 15%;
+  }
+}
+
+@media (max-width: 576px) {
+  .enigme {
+    background-image: url(../images/enigmeblack.jpg);
+    background-position: 25% 35%;
+  }
+}
+
+.carousel {
+  margin-bottom: 25px;
+}
+
+.carousel .carousel-indicators {
+  bottom: -30px;
+}
+
+.carousel .carousel-indicators [data-bs-target] {
+  height: 20px;
+  width: 20px;
+  border: 2px white solid;
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.5;
+  margin: 0 5px 0 5px;
+}
+
+.carousel .carousel-indicators .active {
+  opacity: 1;
+  background-color: white;
+}
+
+.carousel .carousel-indicators.avis {
+  bottom: -70px;
+}
+
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+  width: 0%;
+}
+
+.carousel .carousel-control-prev-icon {
+  left: -60px;
+  margin-left: 15px;
+}
+
+.carousel .carousel-control-next-icon {
+  right: -60px;
+  margin-right: 15px;
+}
+
+.carousel .ajouter-avis {
+  cursor: pointer;
+  padding-right: 0;
+  padding-left: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  min-width: 300px;
+}
+
+.carousel .ajouter-avis:hover {
+  background-color: var(--title-button-color) !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.carousel .ajouter-avis a:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #f8f9fa !important;
+}
+
+.box-height {
+  height: 300px;
+}
+
+@media (max-width: 992px) {
+  .box-height {
+    height: 400px;
+  }
+}
+
+.mt-100 {
+  margin-top: 120px;
+}
+
+.btn-red {
+  background-color: var(--title-button-color);
+  border: 2px solid var(--title-button-color);
+  color: var(--text-color);
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 10px 40px;
+}
+
+.btn-red:hover {
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+.text-red {
+  color: var(--title-button-color);
+}
+
+.btn-primary {
+  background-color: var(--title-button-color);
+  border-color: none;
+}
+
+.card {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.AllDifficulte {
+  margin-bottom: 115%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1%;
+}
+
+.nbrPersonne {
+  margin-bottom: 1%;
+}
+
+.imagePlusinfo:hover {
+  cursor: pointer;
+  background-color: black;
+  opacity: 50%;
+  background-image: url(../images/plus2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 1400px) {
+  .card-img-overlay:hover .plusInfo {
+    display: block;
+  }
+}
+
+.cercle-plein {
+  width: 25px;
+  height: 25px;
+  background: var(--text-color);
+  border-radius: 25px;
+  /* ou 50% */
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.cercle-vide {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  /* ou 50% */
+  margin-left: 2%;
+  margin-top: 1%;
+  border: 3px solid #fff;
+}
+
+.plusInfo {
+  display: none;
+  position: absolute;
+  right: 25%;
+  bottom: 25%;
+}
+
+@media screen and (max-width: 470px) {
+  .carroussel p {
+    font-size: 1.2rem !important;
+  }
+}
+
+.listeJour {
+  list-style-type: none;
+  overflow: auto;
+}
+
+@media screen and (min-width: 767px) {
+  .listeJour {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.listeJour a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+.listeJour a:hover {
+  opacity: 1;
+}
+
+.listeJour a:focus {
+  opacity: 1;
+}
+
+.listeJour a:active {
+  opacity: 1;
+}
+
+.mt-70 {
+  margin-top: 60%;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.choixHeure {
+  z-index: 2;
+  margin-top: 1%;
+}
+
+@media screen and (max-width: 576px) {
+  .choixHeure {
+    margin-right: -1%;
+    margin-bottom: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .choixHeureHorreur {
+    margin-right: -2%;
+    margin-bottom: 2%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.texteGris {
+  opacity: 0.5;
+  margin-top: 1%;
+}
+
+.salleReserve:focus {
+  cursor: pointer;
+  background-color: black;
+  opacity: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+
+.salleReserve:hover {
+  cursor: pointer;
+  background-color: black;
+  opacity: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+
+.imageIndispo {
+  margin-top: 55%;
+}
+
+.radioReserve {
+  width: 42%;
+}
+
+.radioReserve input {
+  margin-top: 10%;
+  background-color: transparent;
+}
+
+.paiementReserve {
+  margin-top: 5%;
+}
+
+@media screen and (min-width: 990px) {
+  .paiementReserve {
+    margin-top: 105px;
+  }
+}
+
+.selecteurProbleme {
+  height: 2.5rem;
+  color: white;
+}
+
+.input {
+  background-color: transparent;
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+}
+
+.input option {
+  background-color: var(--main-bg-color);
+}
+
+.input:focus {
+  background-color: transparent;
+  border: 2px solid var(--text-color);
+  color: var(--text-color);
+}
+
+.optionContact {
+  background-color: transparent;
+}
+
+:root {
+  --main-bg-color: #1b1b1b;
+  --title-button-color:#f13434;
+  --text-color: #f7f7f7;
+  --nav-footer-slider-color: #222222;
+  --xs: 576px;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  overflow-x: hidden;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  .w-50 {
+    width: 100% !important;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.h-550 {
+  height: 550px;
+}
+
+.t-1 {
+  font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+  .t-1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .t-1 {
+    font-size: 3rem;
+  }
+}
+
+.t-2 {
+  font-size: 2.3rem;
+}
+
+@media (max-width: 768px) {
+  .t-2 {
+    font-size: 1.8rem;
+  }
+}
+
+.t-3 {
+  font-size: 1.875rem;
+}
+
+@media (max-width: 768px) {
+  .t-3 {
+    font-size: 1.5rem;
+  }
+}
+
+.t-4 {
+  font-size: 1.125rem;
+}
+
+.bg-dark {
+  background-color: var(--nav-footer-slider-color);
+}
+
+.titre-section {
+  height: 70px;
+}
+
+.titre-section .titre {
+  left: 100px;
+}
+
+.titre-section .titre:before {
+  content: '';
+  position: absolute;
+  left: -100px;
+  bottom: 15px;
+  width: 69px;
+  height: 6px;
+  background-color: var(--title-button-color);
+}
+
+.btn-red {
+  background-color: var(--title-button-color);
+  border: 2px solid var(--title-button-color);
+  color: var(--text-color);
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 10px 40px;
+}
+
+.btn-red:hover {
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+.text-red {
+  color: var(--title-button-color);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.mt-100 {
+  margin-top: 120px;
+}
+
+.btn-check:focus + .btn, .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.h-270 {
+  height: 270px;
+}
+/*# sourceMappingURL=styles.css.map */

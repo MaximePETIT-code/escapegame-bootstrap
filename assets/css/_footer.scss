@@ -1,0 +1,15 @@
+footer{
+    background-color: var(--nav-footer-slider-color);
+}
+
+i{
+    transition: 0.3s;
+    &:hover{
+        color: var(--title-button-color);
+        transition: 0.3s;
+    }
+}
+
+.navbar-toggler{
+    margin-bottom: 5px;
+}

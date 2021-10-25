@@ -1,0 +1,110 @@
+.carroussel{
+    @media screen and (max-width: 470px) {
+      p{
+        font-size: 1.2rem !important;
+      }
+    }
+  }
+  
+  .listeJour {
+    list-style-type: none;
+    overflow: auto;
+    @media screen and (min-width: 767px) {
+      justify-content: center;
+        
+      }
+    a {
+      text-decoration: none;
+      color: var(--text-color);
+      font-weight: bold;
+      opacity: 0.5;
+      
+      &:hover {
+        opacity: 1;
+      }
+      &:focus {
+        opacity: 1;
+      }
+      &:active{
+        opacity: 1;
+      }
+    }
+  }
+  
+  .mt-70 {
+    margin-top: 60%;
+  }
+  
+  .opacity-50{
+    opacity: 0.5;
+  }
+  
+  
+  .choixHeure {
+    z-index: 2;
+    margin-top: 1%;
+    @media screen and (max-width: 576px) {
+      margin-right: -1%;
+      margin-bottom: 2%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  .choixHeureHorreur{
+    @media screen and (max-width: 576px) {
+      margin-right: -2%;
+      margin-bottom: 2%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
+  
+  
+  .texteGris{
+    opacity: 0.5;
+    margin-top: 1%;
+  }
+  
+  .salleReserve{
+    &:focus{
+      cursor: pointer;
+      background-color: black;
+      opacity: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 5px solid #fff;
+      border-radius: 5px;
+    }
+    &:hover{
+      cursor: pointer;
+      background-color: black;
+      opacity: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 5px solid #fff;
+      border-radius: 5px;
+    }
+  }
+  
+  .imageIndispo{
+    margin-top: 55%;
+  }
+  
+  .radioReserve{
+    width: 42%;
+    input{
+      margin-top: 10%;
+      background-color: transparent;
+    }
+  }
+  
+  
+  .paiementReserve{
+    margin-top: 5%;
+    @media screen and (min-width: 990px) {
+      margin-top: 105px;
+    }
+  }
+  

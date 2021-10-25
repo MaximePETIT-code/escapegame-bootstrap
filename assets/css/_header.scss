@@ -1,0 +1,43 @@
+.navbar{
+    background-color: var(--nav-footer-slider-color);
+    border-bottom: 4px var(--title-button-color) solid;
+    .navbar-nav{
+        white-space: nowrap;
+        position: relative;
+        z-index: 2;
+
+        .nav-link{
+            color: white;
+        }
+    }
+    a{
+        color: white;
+    }
+}
+
+@media (min-width: 992px){
+    .navbar{
+        height: 70px;
+        padding-top: 0;
+        padding-bottom: 0;
+    
+        li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .active{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--title-button-color);
+            height: 100%;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+}
+
+.hero-banner{
+    background-image: url(../images/header-bg.jpg);
+}

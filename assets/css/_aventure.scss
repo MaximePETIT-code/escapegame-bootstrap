@@ -1,0 +1,133 @@
+.avis{
+    .signature{
+        bottom: 15px;
+    }
+}
+
+.aventure-banner{
+    background-image: url(../images/aventure.jpg);
+}
+
+.enigme-banner{
+    background-image: url(../images/enigme.jpg);
+    background-position: center;
+}
+
+.horreur-banner{
+    background-image: url(../images/horreur.jpg);
+    background-position: center;
+}
+
+.sportif-banner{
+    background-image: url(../images/sportif.jpg);
+    background-position: 60% 0%;
+}
+
+.prison-banner{
+    background-image: url(../images/prison.jpg);
+    background-position: center;
+}
+
+.zombie-banner{
+    background-image: url(../images/zombie.jpg);
+}
+
+.prison{
+    @media(max-width: 576px){
+        background-image: url(../images/prisonblack.jpg);
+    }
+}
+
+.horreur{
+    @media(max-width: 576px){
+        background-image: url(../images/horreurblack.jpg);
+        background-position: 25% 35%;
+    }
+}
+
+.zombie{
+    @media(max-width: 576px){
+        background-image: url(../images/zombieblack.jpg);
+        background-position: 25% 35%;
+    }
+}
+
+.sportif{
+    @media(max-width: 576px){
+        background-image: url(../images/sportifblack.jpg);
+        background-position: 30% 15%;
+    }
+}
+
+.enigme{
+    @media(max-width: 576px){
+        background-image: url(../images/enigmeblack.jpg);
+        background-position: 25% 35%;
+    }
+}
+
+
+.carousel{
+    margin-bottom: 25px;
+    .carousel-indicators{
+        bottom: -30px;
+        [data-bs-target]{
+            height: 20px;
+            width: 20px;
+            border: 2px white solid;
+            border-radius: 50%;
+            background-color: transparent;
+            opacity: 0.5;
+            margin: 0 5px 0 5px;
+        }
+        .active{
+            opacity: 1;
+            background-color: white;
+        }
+    }
+
+
+    .carousel-indicators.avis{
+        bottom: -70px;
+    }
+
+    .carousel-control-prev, .carousel-control-next{
+        width: 0%;
+    }
+    .carousel-control-prev-icon{
+        left: -60px;
+        margin-left: 15px;
+    }
+    .carousel-control-next-icon{
+        right: -60px;
+        margin-right: 15px;
+    }
+
+    .ajouter-avis{
+        cursor: pointer;
+        padding-right: 0;
+        padding-left: 0;
+        transition: 0.3s;
+        min-width: 300px;
+        
+
+        &:hover{
+            background-color: var(--title-button-color)!important;
+            transition: 0.3s;
+        }
+
+        a{
+            &:hover{
+                transition: 0.3s;
+                color: #f8f9fa!important;
+            }
+        }
+    }
+}
+
+.box-height{
+    height: 300px;
+    @media(max-width: 992px){
+        height: 400px;
+    }
+}
